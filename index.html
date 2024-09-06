@@ -137,7 +137,41 @@
         transform: scale(1);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       }
+      .custom-title {
+        text-align: center;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+      }
+      
+      .custom-title h4 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        background: linear-gradient(to right, #f39c12, #e74c3c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        position: relative;
+      }
+      
+      .custom-title h4::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: #333;
+        transform: translateY(-50%);
+        z-index: -1;
+      }
+      
+      .custom-title .text-primary {
+        color: #3498db; /* تغيير اللون الأساسي إذا لزم الأمر */
+      }
+      
     </style>
+    
   </head>
 
   <body>
@@ -675,11 +709,12 @@
         <!--end row-->
       </div>
       <!--end container-->
-      <div class="section-title pb-2">
-        <h4 class="title text-center">
-          <span class="text-primary">نقرب المسافات ونتعلم</span> 
+      <div class="section-title pb-2 mt-4 custom-title">
+        <h4 class="text-primary">
+          نقرب المسافات ونتعلم
         </h4>
       </div>
+      
     </section>
     <!-- END Methodology Section -->
 
