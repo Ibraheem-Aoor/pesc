@@ -41,8 +41,11 @@ function fn() {
     setTheme('style-rtl');
     try {
         new WOW().init();
-        var myModal = new bootstrap.Modal(document.getElementById('educationModal'));
-        myModal.show();
+        setTimeout(function () {
+            var myModal = new bootstrap.Modal(document.getElementById('educationModal'));
+            myModal.show()
+        }, 2000);
+
     } catch (error) {
 
     }
