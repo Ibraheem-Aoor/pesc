@@ -24,12 +24,12 @@
  ================================*/
 
 
-window.addEventListener('load',   fn , false )
+window.addEventListener('load', fn, false)
 
 //  window.onload = function loader() {
 function fn() {
     // Preloader
-    if(document.getElementById('preloader')){
+    if (document.getElementById('preloader')) {
         setTimeout(() => {
             document.getElementById('preloader').style.visibility = 'hidden';
             document.getElementById('preloader').style.opacity = '0';
@@ -41,10 +41,12 @@ function fn() {
     setTheme('style-rtl');
     try {
         new WOW().init();
+        var myModal = new bootstrap.Modal(document.getElementById('educationModal'));
+        myModal.show();
     } catch (error) {
-        
+
     }
-    
+
 }
 
 //Menu
@@ -99,21 +101,21 @@ function activateMenu() {
 
         if (matchingMenuItem) {
             matchingMenuItem.classList.add('active');
-         
-         
+
+
             var immediateParent = getClosest(matchingMenuItem, 'li');
-      
+
             if (immediateParent) {
                 immediateParent.classList.add('active');
             }
-            
+
             var parent = getClosest(immediateParent, '.child-menu-item');
-            if(parent){
+            if (parent) {
                 parent.classList.add('active');
             }
 
-            var parent = getClosest(parent || immediateParent , '.parent-menu-item');
-        
+            var parent = getClosest(parent || immediateParent, '.parent-menu-item');
+
             if (parent) {
                 parent.classList.add('active');
 
@@ -137,11 +139,11 @@ function activateMenu() {
 }
 
 // Clickable Menu
-if(document.getElementById("navigation")){
+if (document.getElementById("navigation")) {
     var elements = document.getElementById("navigation").getElementsByTagName("a");
-    for(var i = 0, len = elements.length; i < len; i++) {
+    for (var i = 0, len = elements.length; i < len; i++) {
         elements[i].onclick = function (elem) {
-            if(elem.target.getAttribute("href") === "javascript:void(0)") {
+            if (elem.target.getAttribute("href") === "javascript:void(0)") {
                 var submenu = elem.target.nextElementSibling.nextElementSibling;
                 submenu.classList.toggle('open');
             }
@@ -152,7 +154,7 @@ if(document.getElementById("navigation")){
 // Menu sticky
 function windowScroll() {
     const navbar = document.getElementById("topnav");
-    if(navbar!=null){
+    if (navbar != null) {
         if (
             document.body.scrollTop >= 50 ||
             document.documentElement.scrollTop >= 50
@@ -176,7 +178,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-    if(mybutton!=null){
+    if (mybutton != null) {
         if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
             mybutton.style.display = "block";
         } else {
@@ -207,7 +209,7 @@ feather.replace();
 
 // dd-menu
 var ddmenu = document.getElementsByClassName("dd-menu");
-for(var i = 0, len = ddmenu.length; i < len; i++) {
+for (var i = 0, len = ddmenu.length; i < len; i++) {
     ddmenu[i].onclick = function (elem) {
         elem.stopPropagation();
     }
@@ -216,20 +218,20 @@ for(var i = 0, len = ddmenu.length; i < len; i++) {
 //Tooltip
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
+    return new bootstrap.Tooltip(tooltipTriggerEl)
 });
 
 //Popovers
 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
+    return new bootstrap.Popover(popoverTriggerEl)
 })
 
 //small menu
 try {
     var spy = new Gumshoe('#navmenu-nav a');
-}catch(err) {
-    
+} catch (err) {
+
 }
 
 
@@ -276,9 +278,9 @@ try {
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.send("name=" + name + "&email=" + email + "&subject=" + subject + "&comments=" + comments);
         return false;
-      }
-    
-      function fadeIn() {
+    }
+
+    function fadeIn() {
         var fade = document.getElementById("error-msg");
         var opacity = 0;
         var intervalID = setInterval(function () {
@@ -291,41 +293,41 @@ try {
         }, 200);
     }
 } catch (error) {
-    
+
 }
 
-try {    
+try {
     function setTheme(theme) {
         let bootstarpHref;
         let styleHref;
         let color = '';
-        if(window.theme)
-            color = '-'+window.theme;
+        if (window.theme)
+            color = '-' + window.theme;
         switch (theme) {
             case "style-dark":
-                bootstarpHref =  "assets/css/bootstrap-dark"+color+".min.css"
-                styleHref = "assets/css/style-dark"+color+".min.css"
+                bootstarpHref = "assets/css/bootstrap-dark" + color + ".min.css"
+                styleHref = "assets/css/style-dark" + color + ".min.css"
                 break;
             case "style-rtl":
-                bootstarpHref =  "assets/css/bootstrap"+color+"-rtl.min.css"
-                styleHref = "assets/css/style"+color+"-rtl.min.css"
+                bootstarpHref = "assets/css/bootstrap" + color + "-rtl.min.css"
+                styleHref = "assets/css/style" + color + "-rtl.min.css"
                 break;
             case "style-dark-rtl":
-                bootstarpHref =  "assets/css/bootstrap-dark"+color+"-rtl.min.css"
-                styleHref = "assets/css/style-dark"+color+"-rtl.min.css"
-                break;               
-        
+                bootstarpHref = "assets/css/bootstrap-dark" + color + "-rtl.min.css"
+                styleHref = "assets/css/style-dark" + color + "-rtl.min.css"
+                break;
+
             default:
-                bootstarpHref =  "assets/css/bootstrap"+color+".min.css"
-                styleHref = "assets/css/style"+color+".min.css"
+                bootstarpHref = "assets/css/bootstrap" + color + ".min.css"
+                styleHref = "assets/css/style" + color + ".min.css"
                 break;
         }
 
-        if(theme === "style-rtl" || theme === "style-dark-rtl"   ) document.getElementsByTagName("html")[0].dir = "rtl"
-        else  document.getElementsByTagName("html")[0].dir = "ltr"
-       
-        document.getElementsByClassName('theme-opt')[0].href =bootstarpHref
-        document.getElementsByClassName('theme-opt')[1].href =styleHref
+        if (theme === "style-rtl" || theme === "style-dark-rtl") document.getElementsByTagName("html")[0].dir = "rtl"
+        else document.getElementsByTagName("html")[0].dir = "ltr"
+
+        document.getElementsByClassName('theme-opt')[0].href = bootstarpHref
+        document.getElementsByClassName('theme-opt')[1].href = styleHref
     };
 
     function setColor(theme) {
@@ -333,7 +335,7 @@ try {
         document.getElementById('bootstrap-style').href = 'assets/css/bootstrap-' + theme + '.min.css';
         document.getElementById('color-opt').href = 'assets/css/style-' + theme + '.min.css';
     };
-    
+
     function setColorPrimary() {
         window.theme = null;
         document.getElementById('bootstrap-style').href = 'assets/css/bootstrap.min.css';
@@ -341,5 +343,5 @@ try {
     };
 
 } catch (error) {
-    
+
 }
