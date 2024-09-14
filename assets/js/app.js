@@ -40,11 +40,10 @@ function fn() {
     setColorPrimary();
     setTheme('style-rtl');
     try {
+        var myModal = new bootstrap.Modal(document.getElementById('educationModal'));
+        myModal.show()
         new WOW().init();
-        setTimeout(function () {
-            var myModal = new bootstrap.Modal(document.getElementById('educationModal'));
-            myModal.show()
-        }, 2000);
+
 
     } catch (error) {
 
