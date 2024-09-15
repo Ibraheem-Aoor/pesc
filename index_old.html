@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>المركز الفلسطيني للتعليم المساند - جذور</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="المركز الفلسطيني للتعليم المساند يقدم مجموعة شاملة من الخدمات التعليمية والدورات التدريبية لمساعدة الطلاب في تحقيق أهدافهم الأكاديمية."
+    />
+    <meta
+      name="keywords"
+      content="التعليم, التدريب, دورات تعليمية, برامج تعليمية, المركز الفلسطيني, دعم تعليمي, تعلم عبر الإنترنت, خدمات تعليمية"
+    />
+    <meta name="author" content="المركز الفلسطيني للتعليم المساند" />
+    <meta name="email" content="palestine.c25@gmail.com" />
+    <meta name="website" content="https://palestine.academy-uk.net" />
+    <!-- استبدل هذا بعنوان URL للموقع الفعلي -->
+    <meta name="Version" content="v1.0.0" />
+
+    <!-- Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="المركز الفلسطيني للتعليم المساند - جذور"
+    />
+    <meta
+      property="og:description"
+      content="اكتشف خدمات المركز الفلسطيني للتعليم المساند، حيث نقدم برامج تعليمية متكاملة ودورات تدريبية لدعم الطلاب في تحقيق أهدافهم الأكاديمية."
+    />
+    <meta property="og:image" content="/assets/images/og_image.webp" />
+    <!-- استبدل بهذا الرابط لصورة الـ OG المناسبة -->
+    <meta property="og:url" content="assets/images/common/offical_logo.webp" />
+    <!-- استبدل بهذا عنوان URL للموقع الفعلي -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta
+      name="twitter:title"
+      content="المركز الفلسطيني للتعليم المساند - جذور"
+    />
+    <meta
+      name="twitter:description"
+      content="تعرف على خدمات المركز الفلسطيني للتعليم المساند، التي تشمل برامج تعليمية متكاملة ودورات تدريبية لدعم الطلاب في تحقيق أهدافهم الأكاديمية."
+    />
+    <meta
+      name="twitter:image"
+      content="/assets/images/common/offical_logo.webp"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="assets/images/common/offical_logo.webp"
+      type="image/x-icon"
+    />
+
+    <!-- Additional meta tags for SEO and responsiveness -->
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/common/offical_logo.webp" />
+
+    <!-- Style Css-->
+    <link href="assets/libs/animate.css/animate.min.css" rel="stylesheet" />
+    <!-- Bootstrap Css -->
+    <link
+      href="assets/css/bootstrap.min.css"
+      id="bootstrap-style"
+      class="theme-opt"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Icons Css -->
+    <link
+      href="assets/libs/@mdi/font/css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/libs/@iconscout/unicons/css/line.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <!-- Style Css-->
+    <link
+      href="assets/css/style-green.min.css"
+      id="color-opt"
+      class="theme-opt"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      .sub-menu-item {
+        font-family: "Cairo", sans-serif !important;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+      }
+      /* WhatsApp Icon Style */
+      .whatsapp-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        background-color: #25d366;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .whatsapp-icon img {
+        width: 35px;
+        height: 35px;
+        filter: invert(1);
+      }
+
+      .whatsapp-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .whatsapp-icon:active {
+        transform: scale(1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .custom-title {
+        text-align: center;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+      }
+
+      .custom-title h4 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        background: linear-gradient(to right, #f39c12, #e74c3c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        position: relative;
+      }
+
+      .custom-title h4::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: #333;
+        transform: translateY(-50%);
+        z-index: -1;
+      }
+
+      .custom-title .text-primary {
+        color: #3498db; /* تغيير اللون الأساسي إذا لزم الأمر */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navbar Start -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="index.html">
+          <img
+            src="assets/images/common/offical_logo.webp"
+            height="80"
+            class="logo-light-mode"
+            alt=""
+          />
+          <img
+            src="assets/images/common/offical_logo.webp"
+            height="80"
+            class="logo-dark-mode"
+            alt=""
+          />
+        </a>
+        <!-- Logo End -->
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu">
+            <li><a href="index.html" class="sub-menu-item">الرئيسية</a></li>
+            <li>
+              <a href="#pesc-info-section" class="sub-menu-item">من نحن</a>
+            </li>
+
+            <li>
+              <a href="#methodology" class="sub-menu-item">خدماتنا</a>
+            </li>
+
+            <li>
+              <a href="#educational-paths" class="sub-menu-item"
+                >مسارات التعليم</a
+              >
+            </li>
+            <li>
+              <a href="#join-details" class="sub-menu-item">آلية الالتحاق</a>
+            </li>
+            <li>
+              <a href="#study-flow" class="sub-menu-item">آلية الدراسة</a>
+            </li>
+            <li>
+              <a href="#faqs" class="sub-menu-item">الأسئلة الشائعة</a>
+            </li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Start -->
+    <section
+      class="bg-home pb-5 pb-sm-0 d-flex align-items-center bg-linear-gradient-primary"
+      id="about-section"
+    >
+      <div class="container">
+        <div class="row mt-5 align-items-center">
+          <div class="col-md-6">
+            <div
+              class="title-heading me-lg-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <h1 class="heading fw-bold mb-3">
+                المركز الفلسطيني للتعليم المساند
+                <span class="text-primary">...</span>
+                <br />
+                <span class="text-primary"> ريادة التعليم وأصالة الجذور </span>
+              </h1>
+              <p class="para-desc text-muted">
+                مؤسسة تعليمية رائدة تهدف إلى تقديم تجربة تعليمية مبتكرة ومتطورة
+                للطلاب الفلسطينيين في المهجر، لتطوير المهارات الأكاديمية
+                والشخصية والاجتماعية للطلاب، تحت بيئة تعليمية محفزة وآمنة تدعم
+                الابتكار وتحافظ على البعد الثقافي وتحفظ الهوية الوطنية، بتطبيق
+                المناهج الفلسطينية بطرق حديثة وإبداعية وصولاً إلى إعداد الطلبة
+                بقاعدة علمية مميزة وانتماء فلسطيني واعد.
+              </p>
+              <div class="subcribe-form mt-4 py-2 d-none">
+                <form class="m-0">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="rounded-pill bg-white-50 border"
+                    placeholder="أدخل بريدك الإلكتروني للتحديثات"
+                  />
+                  <button type="submit" class="btn btn-pills btn-primary">
+                    ابدأ الآن <i class="uil uil-arrow-right"></i>
+                  </button>
+                </form>
+              </div>
+              <p class="text-muted mb-0 d-none">
+                هل تحتاج إلى مساعدة؟
+                <a href="#contact" class="text-primary">تواصل مع فريق الدعم</a>
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div class="position-relative ms-lg-5">
+              <div
+                class="bg-half-260 overflow-hidden rounded-md shadow-md jarallax"
+                data-jarallax
+                data-speed="0.5"
+                style="
+                  background: url('https://img.freepik.com/premium-photo/medium-shot-people-working-together_23-2150751916.jpg?uid=R95899825&ga=GA1.2.1266518853.1715856292&semt=ais_hybrid');
+                "
+              >
+                <div class="py-lg-5 py-md-0 py-5"></div>
+              </div>
+
+              <div
+                class="modern-saas-absolute-left wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="card">
+                  <div
+                    class="features feature-primary d-flex justify-content-between align-items-center rounded shadow p-3"
+                  >
+                    <div class="d-flex align-items-center">
+                      <div
+                        class="icon bg-soft-primary text-center rounded-pill"
+                      >
+                        <i class="uil uil-graduation-cap fs-4 mb-0"></i>
+                      </div>
+                      <div class="flex-1 ms-3 d-none">
+                        <h6 class="mb-0 text-muted">الطلاب الملتحقين</h6>
+                        <p class="fs-5 text-dark fw-bold mb-0">
+                          <span class="counter-value" data-target="5000"
+                            >4500</span
+                          >
+                          طالب
+                        </p>
+                      </div>
+                    </div>
+
+                    <span class="text-success ms-4 d-none"
+                      ><i class="uil uil-arrow-growth"></i> 10%</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="modern-saas-absolute-right wow animate__animated animate__fadeInUp d-none"
+                data-wow-delay=".5s"
+              >
+                <div class="card rounded shadow">
+                  <div class="p-3">
+                    <h5>إدارة المركز</h5>
+
+                    <div class="progress-box mt-2">
+                      <h6 class="title fw-normal text-muted">نسبة الإنجاز</h6>
+                      <div class="progress">
+                        <div
+                          class="progress-bar position-relative bg-primary"
+                          style="width: 80%"
+                        >
+                          <div
+                            class="progress-value d-block text-muted h6 mt-1"
+                          >
+                            80%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--end process box-->
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="position-absolute top-0 start-0 translate-middle z-index-m-1"
+              >
+                <img src="avg" class="avatar avatar-xl-large" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+
+    <!-- Start School Information Section -->
+    <section class="section" id="pesc-info-section">
+      <div class="container pb-5 mb-md-5">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div
+              class="section-title mb-4 pb-2 wow animate__animated animate__fadeInUp d-none"
+              data-wow-delay=".1s"
+            >
+              <img
+                src="assets/images/school-logo.png"
+                class="avatar avatar-small d-none"
+                alt="School Logo"
+              />
+              <h4 class="title fw-semibold my-4">
+                تعرف على <br />
+                <strong class="text-primary"
+                  >المركز الفلسطيني للتعليم المساند</strong
+                >
+              </h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                المركز الفلسطيني للتعليم المساند (جذور) هو مؤسسة تعليمية رائدة
+                تهدف إلى تقديم تجربة تعليمية مبتكرة ومتطورة للطلاب الفلسطينيين
+                في المهجر. يسعى المركز إلى تطوير المهارات الأكاديمية والشخصية
+                والاجتماعية للطلاب في بيئة تعليمية محفزة وآمنة تدعم الابتكار
+                والبعد الثقافي والوطني، وصولاً إلى تكوين طالب يتمتع بقاعدة علمية
+                وانتماء فلسطيني واعد.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="row align-items-center">
+          <div class="col-lg-7 mt-4 pt-2">
+            <div
+              class="school-feature-shape-left position-relative me-lg-5 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <img
+                src="https://img.freepik.com/free-photo/side-view-girl-learning-with-laptop_23-2149455152.jpg?uid=R95899825&ga=GA1.2.1266518853.1715856292&semt=ais_hybrid"
+                class="img-fluid mx-auto d-block rounded shadow"
+                alt="School Feature"
+              />
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-5 mt-4 pt-2">
+            <div
+              class="section-title wow animate__animated animate__fadeInUp"
+              data-wow-delay=".7s"
+            >
+              <h4 class="title mb-4">من نحن</h4>
+              <p class="text-muted">
+                • مدرسة فلسطينية تعليمية إلكترونية ريادية تعتمد على المنهاج
+                المصري والفلسطيني لكافة المراحل الدراسية.
+                <br />
+                • يملك المشروع مجموعة من الفلسطينيين من خلال شركة مسجلة في مصر
+                (السنبلة) وأخرى في بريطانيا (الأكاديمية الذكية).
+                <br />
+                • للمدرسة مجلس أمناء من خبراء التعليم من الفلسطينيين في داخل
+                وخارج فلسطين.
+              </p>
+
+              <!-- إضافة قسم الرؤية والرسالة -->
+              <h4 class="title mb-4 mt-4">رؤيتنا</h4>
+              <p class="text-muted">
+                • خدمة تعليمية رائدة بتقنيات حديثة تلبي الطموح، يقدمها كادر
+                ريادي.
+              </p>
+
+              <h4 class="title mb-4 mt-4">رسالتنا</h4>
+              <p class="text-muted">
+                • مركز تعليمي يجمع الطلبة الفلسطينيين، يلبي طموحهم التعليمي
+                وييسر إجراءات تلقيهم محتوى مطور وخبرة تعليمية متميزة.
+              </p>
+              <div class="section-title mb-4">
+                <h4 class="title mb-4">فريق المركز</h4>
+                <p class="text-muted">
+                  • يملك المشروع مجموعة من الفلسطينيين من خلال شركة مسجلة في مصر
+                  (السنبلة) وأخرى في بريطانيا (الأكاديمية البريطانية للتعليم
+                  الإلكتروني).
+                  <br />
+                  • مجلس أمناء من خبراء التعليم من الفلسطينيين داخل فلسطين
+                  وخارجها.
+                  <br />
+                  • كادر تعليمي نخبوي، مؤهل علميًا وتربويًا لتصميم التعليم
+                  الإلكتروني وتنفيذه، يجمع بين الخبرة والحداثة.
+                  <br /><br />
+                  <strong>أعضاء الفريق:</strong>
+                  <br />
+                  أ.د. زاهر كحيل - رئيس مجلس الأمناء <br />
+                  د. عبد الكريم جودة - نائب رئيس المجلس <br />
+                  د. أسماء أبو موسى - أمين السر <br />
+                  د. نهى نجم <br />
+                  م. سعد الدين الأطبش - المدير الإداري <br />أ. علاء المشهراوي
+                  <br />
+                  د. كمال حمدان <br />
+                  د. إيهاب النحال <br />
+                  د. أحمد الكيالي <br />
+                  م. هاشم سيكك <br />
+                  م. محمد لبد <br />
+                  د. إسراء السكني <br />
+                  م. مصطفى المجلة
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!-- End School Information Section -->
+    <!-- START Center Services Section -->
+    <section
+      class="section bg-light wow animate__animated animate__fadeInUp"
+      data-wow-delay=".3s"
+      id="services"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">خدمات المركز</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                يقدم
+                <span class="text-primary fw-bold"
+                  >المركز الفلسطيني للتعليم المساند</span
+                >
+                مجموعة واسعة من الخدمات التعليمية المتنوعة لتلبية احتياجات
+                الطلاب.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <!-- Card 1: دروس إلكترونية -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-book-reader"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>دروس إلكترونية</h5>
+                <p class="para text-muted mb-0">
+                  دروس تفاعلية في مختلف المواد الدراسية الخاصة بالمنهاج
+                  الفلسطيني، معززة بتسجيلات مرئية وصوتية وتدريبات إثرائية.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <!-- Card 2: استشارات تعليمية -->
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-chat-bubble-user"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>استشارات تعليمية</h5>
+                <p class="para text-muted mb-0">
+                  تقديم استشارات للطلاب وأولياء الأمور حول كيفية الاستفادة
+                  القصوى من الموارد التعليمية الإلكترونية.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <!-- Card 3: تعليم ثنائي اللغة -->
+          <div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-globe"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>تعليم ثنائي اللغة</h5>
+                <p class="para text-muted mb-0">
+                  يقدم المحتوى التعليمي باللغتين العربية والإنجليزية عبر تقنيات
+                  رقمية حديثة.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!-- END Center Services Section -->
+    <!-- START Methodology Section -->
+    <section
+      class="section bg-light wow animate__animated animate__fadeInUp"
+      data-wow-delay=".3s"
+      id="methodology"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">خدماتنا</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                نسعى إالى
+                <span class="text-primary fw-bold">ريادة تعليمية</span>
+                من خلال
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <!-- Card 1: منصة تعليمية -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-desktop"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>منصة تعليمية</h5>
+                <p class="para text-muted mb-0">
+                  منصة تعليمية رقمية خاصة بالمركز، تقدم خدمة تعليمية متميزة من
+                  خلال توفير الفصول الافتراضية المتزامنة لتقديم المحتوى التعليمي
+                  بما يضمن التواصل المتزامن والتفاعل المباشر بين المعلمين
+                  والمتعلمين.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <!-- Card 2: محتوى تعليمي رقمي -->
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-file-alt"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>محتوى تعليمي رقمي</h5>
+                <p class="para text-muted mb-0">
+                  محتوى تعليمي مصمم بحيث يقدم من خلال التقنيات الرقمية يلبي
+                  احتياجات الفئة المستهدفة ويواكب التسارع التقني ويعزز قدرات
+                  الطلبة وينمي اتجاهاتهم.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <!-- Card 3: تغذية راجعة دورية -->
+          <div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-refresh"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>تغذية راجعة دورية</h5>
+                <p class="para text-muted mb-0">
+                  تقييم مسارات التعلم للطلبة وتقديم تغذية راجعة للمعلم والمتعلم
+                  عبر تصميم أدوات القياس المختلفة وتطبيقها.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="row mt-4">
+          <!-- Card 4: مكتبة رقمية -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-books"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>مكتبة رقمية</h5>
+                <p class="para text-muted mb-0">
+                  يوفر المركز للدارسين مكتبة رقمية تجمع العناوين المساندة
+                  للمنهاج وعناوين أخرى متنوعة تسهم في بناء شخصية الطلبة وإثراء
+                  معارفهم.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <!-- Card 5: مكتبة الدروس -->
+          <div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-folder-open"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>مكتبة الدروس</h5>
+                <p class="para text-muted mb-0">
+                  إتاحة المواد التعليمية ونماذج تدريبية للاختبارات لوصول الطلبة
+                  متى توفر اتصالهم بالإنترنت.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+      <div class="section-title pb-2 mt-4 custom-title">
+        <h4 class="text-primary">نقرب المسافات ونتعلم</h4>
+      </div>
+    </section>
+    <!-- END Methodology Section -->
+
+    <!-- START Educational Paths -->
+    <section
+      class="section bg-light wow animate__animated animate__fadeInUp"
+      data-wow-delay=".3s"
+      id="educational-paths"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">
+                <span class="text-primary">مسارات التعليم</span> في المركز
+                الفلسطيني للتعليم المساند
+              </h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                يقدم المركز الفلسطيني للتعليم المساند مسارين تعليميين مميزين
+                لتلبية احتياجات الطلاب بمختلف الأساليب التعليمية:
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <!-- Card 1: Electronic Palestinian Curriculum -->
+          <div class="col-lg-6 col-md-12 col-12">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-laptop"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>المسار الأول: تنفيذ المنهاج الفلسطيني إلكترونيًا</h5>
+                <p class="para text-muted mb-0">
+                  تقدم الخدمة التعليمية إلكترونيًا عبر منصة المركز للتعليم
+                  الرقمي وفق معايير وزارة التربية والتعليم الفلسطينية، حيث يتم
+                  تنسيب الطلبة للمنصة وفقًا لتنسيبات الوزارة، ويتم إعدادهم
+                  بالمهارات والمعارف اللازمة لاجتياز الاختبارات المرحلية
+                  والنهائية. ينفذ المنهاج مجموعة من المعلمين الأكفاء، ويضمن
+                  تعليم تفاعلي من خلال اتصال متزامن بين الطلبة والمعلمين، مع
+                  إتاحة دائمة للمواد الرقمية المتعلقة بالمنهاج. الخدمة تتم
+                  بتنسيق كامل مع وزارة التربية والتعليم الفلسطينية، حيث يجلس
+                  الطلبة لامتحانات النقل وجاهيًا وتمنح الشهادات من الوزارة.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <!-- Card 2: Mixed Curriculum (Egyptian - Palestinian) -->
+          <div class="col-lg-6 col-md-12 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-globe"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>المسار الثاني: المنهاج المختلط (مصري - فلسطيني)</h5>
+                <p class="para text-muted mb-0">
+                  ينفذ هذا المسار بتسجيل الطلبة في مدارس مصرية، حيث تقدم الخدمة
+                  التعليمية من قبل معلمين مصريين وفلسطينيين عبر المنصة الرقمية،
+                  للمنهاج المصري ومواد مختارة من المنهاج الفلسطيني، مما يحفظ
+                  هوية الطالب الوطنية. يتم عقد الامتحانات النصفية والنهائية بشكل
+                  وجاهي في المدارس المصرية.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!-- END Educational Paths -->
+
+    <!-- START HOW TO JOIN -->
+    <section
+      ction
+      class="section wow animate__animated animate__fadeOut"
+      data-wow-delay=".4s"
+      id="join-details"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">آلية الالتحاق</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                تعرف على خطوات
+                <span class="text-primary fw-bold"
+                  >الانضمام إلى المركز الفلسطيني للتعليم المساند</span
+                >
+                وأبدأ رحلتك التعليمية معنا.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-user-plus"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>قبول الطلاب</h5>
+                <p class="para text-muted mb-0">
+                  تقبل المدرسة الطلاب الفلسطينيين المؤهلين في مصر ودول المهجر
+                  للمراحل الابتدائية، الإعدادية، والثانوية (12 مستوى دراسي).
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-file-alt"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>تعبئة طلب الالتحاق</h5>
+                <p class="para text-muted mb-0">
+                  يتم تعبئة طلب الالتحاق المبدئي إلكترونياً، وتأكيد المعلومات
+                  عبر البريد الإلكتروني. يتم دفع رسوم الالتحاق لمرة واحدة وتزويد
+                  الطالب باسم المستخدم وكلمة المرور.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+          <div class="col-lg-3 col-md-6 col-12 mt-4 mt-sm-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-users-alt"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>مقابلة سريعة</h5>
+                <p class="para text-muted mb-0">
+                  يعقد المركز مقابلة تحديد مستوى للطلبة المسجلين للوقوف على
+                  مستوياتهم الحقيقية وتحديد مسارات التعليم
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-folder"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>محفظة القبول</h5>
+                <p class="para text-muted mb-0">
+                  يتم استيفاء الأوراق الخاصة بمحفظة القبول التي تحوي الشهادات،
+                  الأوراق الثبوتية، كشوف الدرجات، والوثائق المطلوبة.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row justify-content-between mt-4">
+          <div class="col-6 text-start">
+            <a
+              href="https://forms.gle/DsU59bLYQfmXzxko7"
+              target="_blank"
+              class="btn btn-primary btn-lg"
+              >التحق الآن</a
+            >
+          </div>
+          <div class="col-6 text-end">
+            <a href="#faqs" class="btn btn-secondary btn-lg"
+              >للمزيد حول الرسوم والية الدراسة</a
+            >
+          </div>
+          <!--end col-->
+
+          <!--end col-->
+        </div>
+
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!-- END HOW TO JOIN   -->
+
+    <!-- START STUDY FLOW -->
+    <section
+      class="section wow animate__animated animate__fadeIn"
+      data-wow-delay=".4s"
+      id="study-flow"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">كيف نتميز؟</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                يقسم الموقع إلى عدة أقسام تيسر على الطالب وولي الأمر
+                <span class="text-primary fw-bold"
+                  >تجربة تعليم فريدة ومميزة</span
+                >
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-laptop"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>الحضور المباشر</h5>
+                <p class="para text-muted mb-0">
+                  قاعات تدريس افتراضية متزامنة لتيسير التواصل التفاعلي بين
+                  الطلبة ومعلميهم، يستقر فيها الطالب ويتناوب عليها المعلمون
+                  لمحاكاة الغرف الصفية الوجاهية.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-3 col-md-6 col-12 mt-4 mt-sm-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-home"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>واحة الطالب</h5>
+                <p class="para text-muted mb-0">
+                  صفحة خاصة بكل طالب، مقسمة إلى مساحات إلكترونية تضمن تجربة تعلم
+                  متميزة، مثل : ندرس، نبحث، نتعلم، نشارك ، نعبر.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-3 col-md-6 col-12 mt-4 mt-md-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-book-open"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>المواد الاختيارية</h5>
+                <p class="para text-muted mb-0">
+                  يتيح المركز للدارسين اختيار بعض المواد الدراسية الاختيارية
+                  التي تلتقي مع ميولهم مثل الخطابة، الشعر، الفنون، التقنية، تفعل
+                  ضمن جدول الطالب بعد موافقة ولي الأمر.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-cube"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>خدمة ميسرة</h5>
+                <p class="para text-muted mb-0">
+                  يقدم المركز خيارات لإثراء التجربة التعليمية من خلال إتاحة
+                  الوصول للملف الشخصي، والملف المالي، كشوف الدرجات، تقييم مسار
+                  التعلم
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row justify-content-center mt-4">
+          <div class="col-12 text-center">
+            <a
+              href="https://forms.gle/DsU59bLYQfmXzxko7"
+              target="_blank"
+              class="btn btn-primary btn-lg"
+              >التحق الآن</a
+            >
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+
+    <!-- END STUDY FLOW -->
+
+    <!-- START FAQs -->
+    <section class="section overflow-hidden" id="faqs">
+      <div class="container" id="faqs-section">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div
+              class="section-title text-center mb-4 pb-2 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <h4 class="title mb-4">الأسئلة الشائعة</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                ابحث عن إجابات للأسئلة الشائعة حول برنامجنا. تغطي الأسئلة
+                المتكررة جميع المعلومات التي تحتاجها للبدء، وإدارة دراستك،
+                والتواصل مع الإدارة.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="row align-items-center">
+          <div class="col-md-6 mt-4 pt-2">
+            <div
+              class="bg-half-260 overflow-hidden rounded-md shadow-md jarallax"
+              data-jarallax
+              data-speed="0.5"
+              style="
+                background: url('https://img.freepik.com/free-photo/crop-people-working-desk-with-laptop_23-2147787632.jpg?uid=R95899825&ga=GA1.2.1266518853.1715856292&semt=ais_hybrid');
+              "
+            ></div>
+          </div>
+          <!--end col-->
+
+          <div class="col-md-6 mt-4 pt-2">
+            <div class="accordion" id="accordionExample">
+              <!-- Existing FAQs -->
+              <div
+                class="accordion-item rounded shadow wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    ما هي إجراءات الامتحانات النهائية؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    يتم إجراء الامتحانات النهائية وجاهياً في المدرسة المصرية
+                    التي سجل فيها الطالب، بحضور الطالب والتأكد من هويته ومن
+                    الأماكن.
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item rounded shadow mt-3 wow animate__animated animate__fadeInUp"
+                data-wow-delay=".5s"
+              >
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button border-0 bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    من هم الطاقم التدريسي؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse border-0 collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    لدينا مجموعة مميزة من المدرسين الفلسطينيين والمصريين على
+                    أعلى مستوى، وأصحاب خبرة وكفاءة عالية، لديهم القدرة على إيصال
+                    المعلومة بكل سهولة للطالب.
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item rounded shadow mt-3 wow animate__animated animate__fadeInUp"
+                data-wow-delay=".7s"
+              >
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button border-0 bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    ما هي الرسوم الرسوم الدراسية الفصلية؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse border-0 collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    <p><strong>تفاصيل الرسوم الفصلية:</strong></p>
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>المرحلة</th>
+                          <th>تنفيذ المنهاج إلكتروني بالكامل</th>
+                          <th>مدمج إلكتروني / وجاهي</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>الابتدائية ( أول إلى سادس)</td>
+                          <td>12500 جنيه مصري</td>
+                          <td>15000 جنيه مصري</td>
+                        </tr>
+                        <tr>
+                          <td>الإعدادية ( سابع إلى تاسع)</td>
+                          <td>15000 جنيه مصري</td>
+                          <td>17500 جنيه مصري</td>
+                        </tr>
+                        <tr>
+                          <td>الثانوية ( عاشر وحادي عشر بفرعيه)</td>
+                          <td>16000 جنيه مصري</td>
+                          <td>18500 جنيه مصري</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item rounded shadow mt-3 wow animate__animated animate__fadeInUp"
+                data-wow-delay=".9s"
+              >
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button border-0 bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    أين يقع الموقع الإداري للتسجيل والالتحاق؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse border-0 collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    نستقبلكم في مقر المركز الفلسطيني للتعليم المساند الكائن في
+                    مدرسة المنهل الخاصة مدينة نصر الحي الثامن
+                    <br />
+                    موقع المدرسة :
+                    <a
+                      href="https://maps.app.goo.gl/GKNaBWneGcBeJvrF6"
+                      target="_blank"
+                      >اضغط هنا</a
+                    >
+                    <br />
+                    <strong>واتساب:</strong> 00201271115266
+                    <br />
+                    <strong>للتواصل عبر الإيميل:</strong>
+                    <a href="mailto:palestine.c25@gmail.com"
+                      >palestine.c25@gmail.com</a
+                    >
+                    <br />
+                    <a href="mailto:info@academy-uk.net">info@academy-uk.net</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- New FAQs for Educational Paths -->
+              <div
+                class="accordion-item rounded shadow mt-3 wow animate__animated animate__fadeInUp"
+                data-wow-delay="1.1s"
+              >
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button border-0 bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    ما هي مسارات التعليم المتاحة في المركز الفلسطيني للتعليم
+                    المساند؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse border-0 collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    <strong
+                      >المسار الأول: تنفيذ المنهاج الفلسطيني إلكترونيًا:</strong
+                    >
+                    تقدم الخدمة التعليمية إلكترونيًا عبر منصة المركز للتعليم
+                    الرقمي وفق معايير وزارة التربية والتعليم في التقييم ومنح
+                    الشهادات. يتم تنسيب الطلبة للمنصة وفقًا لتنسيبات وزارة
+                    التربية والتعليم الفلسطينية، ويعدون بالمهارات والمعارف
+                    اللازمة لاجتياز الاختبارات المرحلية والنهائية. يتم تنفيذ
+                    المنهاج بواسطة معلمين أكفاء يتم استقطابهم وفق معايير محددة،
+                    ويضمن التعليم التفاعلي من خلال الاتصال المتزامن بين الطلبة
+                    والمعلمين.
+                    <br /><br />
+                    <strong
+                      >المسار الثاني: المنهاج المختلط (مصري - فلسطيني):</strong
+                    >
+                    ينفذ هذا المسار بتسجيل الطلبة في مدارس مصرية، حيث تقدم
+                    الخدمة التعليمية من قبل معلمين مصريين وفلسطينيين عبر المنصة
+                    الرقمية للمنهاج المصري ومواد مختارة من المنهاج الفلسطيني،
+                    مما يحفظ هوية الطالب الوطنية. يتم عقد الامتحانات النصفية
+                    والنهائية بشكل وجاهي في المدارس المصرية.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div
+          class="row mt-md-5 pt-md-3 mt-4 pt-2 mt-sm-0 pt-sm-0 justify-content-center"
+        >
+          <div class="col-12 text-center">
+            <div
+              class="section-title wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <h4 class="title mb-4">
+                ابدأ الآن مع المركز الفلسطيني للتعليم المساند!
+              </h4>
+              <p class="text-muted para-desc mx-auto">
+                اكتشف كل ما يقدمه مركزنا وابدأ رحلتك التعليمية. تواصل معنا الآن
+                وشاهد الفرق بنفسك!
+              </p>
+              <div class="mt-4">
+                <a
+                  href="https://wa.me/00201271115266"
+                  target="_blank"
+                  class="hotmart-fb btn btn-soft-primary"
+                >
+                  احصل على التفاصيل الآن!</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!-- END FAQS -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-py-60">
+              <div class="row">
+                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                  <a href="#" class="logo-footer">
+                    <img
+                      src="assets/images/common/offical_logo_light.webp"
+                      height="80"
+                      alt="Palestinian Educational Center Logo"
+                    />
+                  </a>
+                  <p class="mt-4">
+                    المرکز الفلسطيني التعليمي المساند من خلال المدراس المصرية هو
+                    مؤسسة تعليمية رائدة تهدف إلى تقديم تجربة تعليمية مبتكرة
+                    ومتطورة للطلاب الفلسطينيين في المهجر، لتطوير المهارات
+                    الأكاديمية والشخصية والاجتماعية للطلاب، تحت بيئة تعليمية
+                    محفزة وآمنة تدعم الابتكار والبعد الثقافي والوطني من خلال
+                    تطبيق المناهج الفلسطينية وصولاً إلى تكوين طالب بقاعدة علمية
+                    مميزة وانتماء فلسطيني واعد.
+                  </p>
+                  <ul
+                    class="list-unstyled social-icon foot-social-icon mb-0 mt-4"
+                  >
+                    <li class="list-inline-item mb-0">
+                      <a href="#" target="_blank" class="rounded">
+                        <i
+                          class="uil uil-facebook-f align-middle"
+                          title="Facebook"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a href="#" target="_blank" class="rounded">
+                        <i
+                          class="uil uil-instagram align-middle"
+                          title="Instagram"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a href="#" target="_blank" class="rounded">
+                        <i
+                          class="uil uil-twitter align-middle"
+                          title="Twitter"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a href="mailto:palestine.c25@gmail.com" class="rounded">
+                        <i
+                          class="uil uil-envelope align-middle"
+                          title="Email"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">الأقسام</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a href="#pesc-info-section" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> من نحن</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#methodology" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i>خدماتنا</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#educational-paths" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> مسارات
+                        التعليم</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="#join-details" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> آلية
+                        الالتحاق</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="#study-flow" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> آلية
+                        الدراسة</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#faqs" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> الأسئلة
+                        الشائعة</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">روابط مفيدة</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a href="mailto:palestine.c25@gmail.com" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> بريد
+                        الكتروني: palestine.c25@gmail.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:info@academy-uk.net" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> بريد
+                        الكتروني: info@academy-uk.net</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="uil uil-angle-left-b me-1"></i> الموقع: موقع
+                        الاداري للتسجيل-التجمع الخامس-المنطقة الثانية-مبنىGSE</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://wa.me/00201271115266"
+                        class="text-foot"
+                        target="_blank"
+                        ><i class="uil uil-angle-left-b me-1"></i> واتساب:
+                        00201271115266
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://forms.gle/3ErkD7wZ7Pc5vj7g9"
+                        class="text-foot"
+                        target="_blank"
+                        ><i class="uil uil-angle-left-b me-1"></i> بوابة التوظيف
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="footer-py-30 footer-bar">
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col-sm-12 text-center">
+              <div class="">
+                <p class="mb-0">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  المركز الفلسطيني للتعليم المساند
+                </p>
+              </div>
+            </div>
+            <!--end col-->
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+    </footer>
+
+    <!--end footer-->
+
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fs-5"
+      ><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i
+    ></a>
+    <!-- Back to top -->
+    <!-- WhatsApp Icon -->
+    <a
+      target="_blank"
+      href="https://wa.me/00201271115266"
+      class="whatsapp-icon"
+      target="_blank"
+      title="Chat with us on WhatsApp"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="35"
+        height="35"
+        style="enable-background: new 0 0 24 24"
+        xml:space="preserve"
+      >
+        <path
+          d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.4-1.7-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.1.1-.3 0-.4-.1-.1-.6-1.3-.8-1.8-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2.9.4 1.4.5.5.2 1 .2 1.6.1.7-.1 1.3-.6 1.7-1.2.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2 5.5 0 9.9-4.4 9.9-9.9.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+        />
+      </svg>
+    </a>
+
+    <!-- MODAL START -->
+    <div
+      class="modal fade "
+      id="educationModal"
+      tabindex="-1"
+      aria-labelledby="educationModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="educationModalLabel">
+              مرحبا بكم في المركز الفلسطيني للتعليم المساند
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              X
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>السيد ولي أمر الطالب /.... .</p>
+            <p>
+              شكرًا لاختياركم المركز الفلسطيني للتعليم المساند، لتجربة تعليمية
+              ريادية، يسرنا أن نعلمكم أنه تم قبول تسجيل ابنكم/ ابنتكم في المركز
+              المقام بالشراكة مع ( مؤسسة السنبلة) في الصف / …. ، علمًا بأن
+              الدراسة ستكون عبر منصة تعليمية مجهزة وفصول افتراضية، وتعالج
+              المباحث الرئيسة وجاهيًا لمن يرغب في ذلك في مدرسة المنهل الخاصة
+              الكائنة في الحي الثامن بمدينة نصر، كما نؤكد لكم أنه جاري التنسيق
+              مع وزارة التربية والتعليم الفلسطينية لإعفاء الطلبة من دوام المدرسة
+              الإلكترونية مع محافظات الضفة الغربية، كما يضمن المركز لمنتسبيه
+              تسجيلهم في قاعدة بيانات الوزارة للاختبارات والشهادات.
+            </p>
+            <p>
+              لتثبيت التسجيل يرجى تسديد رسوم طلب الالتحاق ٥٠٠ جنيه مصري إما
+              بإيداع مباشر عبر حساب مؤسسة السنبلة البنكي، البنك التجاري الدولي
+              (CIB) ، حساب رقم : 100059051843، أو نقدًا في مقر المدرسة بدءًا من
+              السبت الموافق ١٤ سبتمبر ٢٠٢٤ من الساعة ٣م – ٦ م
+            </p>
+            <p class="pl-4">
+              موقع المدرسة :
+              <a
+                href="https://maps.app.goo.gl/GKNaBWneGcBeJvrF6"
+                target="_blank"
+                ><small>https://maps.app.goo.gl/GKNaBWneGcBeJvrF6</small></a
+              >
+            </p>
+            <p><strong>تفاصيل الرسوم الفصلية:</strong></p>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>المرحلة</th>
+                  <th>تنفيذ المنهاج إلكتروني بالكامل</th>
+                  <th>مدمج إلكتروني / وجاهي</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>الابتدائية ( أول إلى سادس)</td>
+                  <td>12500 جنيه مصري</td>
+                  <td>15000 جنيه مصري</td>
+                </tr>
+                <tr>
+                  <td>الإعدادية ( سابع إلى تاسع)</td>
+                  <td>15000 جنيه مصري</td>
+                  <td>17500 جنيه مصري</td>
+                </tr>
+                <tr>
+                  <td>الثانوية ( عاشر وحادي عشر بفرعيه)</td>
+                  <td>16000 جنيه مصري</td>
+                  <td>18500 جنيه مصري</td>
+                </tr>
+              </tbody>
+            </table>
+            <p><strong>ملاحظات هامة:</strong></p>
+            <p>
+              أصل الرسوم للطالب 25000 جنيه مصري لكل فصل دراسي، ويقدم المركز
+              عددًا من المنح مفصلة كالتالي:
+            </p>
+            <ol>
+              <li>
+                منحة المركز: وتشمل التخفيضات على المراحل وفق المدرج في الجدول
+                أعلاه
+              </li>
+              <li>
+                منحة الأوائل تسجيلاً: يمنح المركز تخفيضًا قدره 20% لأول 200 طالب
+                تسجيلاً.
+              </li>
+              <li>
+                منحة الإخوة: يمنح المركز تخفيضًا قدره 20% للأخ الثاني، 30% للأخ
+                الثالث، 40% للأخ الرابع.
+              </li>
+              <li>
+                منحة البحث الاجتماعي: يقدم المركز إعفاء جزئي بنسبة 50% من الرسوم
+                و إعفاء كلي من الرسوم للمتقدمين بطلب الإعفاء وفقًا لاستمارة
+                البحث الاجتماعي الخاصة بالمركز.
+              </li>
+              <li>
+                منحة الطلبة في غزة: يقدم المركز خدماته بشكل مجاني بالكامل للطلبة
+                القادرين على الوصول الرقمي لخدمات المركز.
+              </li>
+            </ol>
+            <p><strong>لاستفساراتكم:</strong></p>
+            <p>
+              بريد إلكتروني:
+              <a href="mailto:palestine.c25@gmail.com"
+                >palestine.c25@gmail.com</a
+              >
+            </p>
+            <p>واتساب: <a href="tel:+201271115266">201271115266+</a></p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL END -->
+
+    <!-- javascript -->
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Parallax -->
+    <script src="assets/libs/jarallax/jarallax.min.js "></script>
+    <!-- Animation -->
+    <script src="assets/libs/wow.js/wow.min.js"></script>
+    <!-- Main Js -->
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <!-- <script src="assets/js/plugins.init.js"></script> -->
+    <!--Note: All init (custom) js like tiny slider, counter, countdown, lightbox, gallery, swiper slider etc.-->
+    <script src="assets/js/app.js?v=0.03"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+  </body>
+</html>
